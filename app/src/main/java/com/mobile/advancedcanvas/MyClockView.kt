@@ -18,8 +18,6 @@ class MyClockView : View {
         SECOND(3)
     }
 
-    private lateinit var timeType: TimeType
-
     private lateinit var paint: Paint
     private var radius = 0f
     private var fontSize = 0f
